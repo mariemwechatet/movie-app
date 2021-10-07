@@ -6,8 +6,8 @@ const AddMovie = () => {
     const [name, setName] = useState('')
     
     const [rating, setRating] = useState(1)
-    const [Date, setDate] = useState('')
-    
+    const [date, setDate] = useState('')
+
     const handleSubmit = (e) => {
         
         e.preventDefault()
